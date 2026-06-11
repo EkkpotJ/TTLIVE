@@ -1,0 +1,50 @@
+name: TTLIVE Update
+description: Track an operating-system update, documentation update, or project status update.
+title: "[Update] "
+labels: ["ttlive", "update"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What changed and why?
+      placeholder: "Summarize the update in 2-5 bullets."
+    validations:
+      required: true
+  - type: textarea
+    id: changed-files
+    attributes:
+      label: Changed Files
+      description: List important files or folders affected by this update.
+      placeholder: |
+        - projects/tournament-os/spec/SYSTEM_REQUIREMENTS_SPECIFICATION.md
+        - projects/tournament-os/backlog/GITHUB_ISSUES_PHASE_1.md
+    validations:
+      required: true
+  - type: textarea
+    id: decisions
+    attributes:
+      label: Decisions
+      description: What decisions were made or confirmed?
+      placeholder: |
+        - ...
+    validations:
+      required: false
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks / Missing Decisions
+      description: What still needs confirmation?
+      placeholder: |
+        - ...
+    validations:
+      required: false
+  - type: textarea
+    id: next-actions
+    attributes:
+      label: Next Actions
+      description: What should happen next?
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true

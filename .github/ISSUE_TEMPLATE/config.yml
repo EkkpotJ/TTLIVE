@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Tournament OS Phase 1 Backlog
+    url: https://github.com/Aalika-Ss1/TTLIVE
+    about: Use projects/tournament-os/backlog/GITHUB_ISSUES_PHASE_1.md as the source issue list.

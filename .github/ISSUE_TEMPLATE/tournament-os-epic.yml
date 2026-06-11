@@ -1,0 +1,58 @@
+name: Tournament OS Epic
+description: Create a Tournament OS Phase 1 epic.
+title: "[Tournament OS][Epic] "
+labels: ["tournament-os", "phase-1", "epic"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What outcome should this epic deliver?
+      placeholder: "Describe the business/system outcome."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included in this epic?
+      placeholder: |
+        - ...
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out Of Scope
+      description: What should not be built in this epic?
+      placeholder: |
+        - ...
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true before this epic is complete?
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: child-issues
+    attributes:
+      label: Child Issues
+      description: Link implementation issues after they are created.
+      placeholder: |
+        - #...
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Relevant specs or docs.
+      placeholder: |
+        - projects/tournament-os/spec/SYSTEM_REQUIREMENTS_SPECIFICATION.md
+    validations:
+      required: true

@@ -10,14 +10,36 @@ Tasks:
 - Review `spec/BUSINESS_RULES.md`.
 - Review `spec/STATE_MACHINE.md`.
 - Review `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`.
+- Review `spec/MVP_RULESET.md`.
+- Review `spec/ENUMS_AND_STATES.md`.
+- Review `spec/RULE_CONFIG_EXAMPLES.md`.
+- Review `spec/ER_DIAGRAM.md`.
+- Review `spec/IMPLEMENTATION_SCHEMA_PLAN.md`.
+- Review `spec/API_CONTRACT_PHASE_1.md`.
+- Review `docs/SPEC_GAP_ANALYSIS.md`.
+- Review `docs/WEB_APP_DESIGN_AND_INTEGRATION_SPEC.md`.
+- Review `docs/DISCORD_OPERATIONS_AND_PLUGIN_SPEC.md`.
+- Review `docs/BOT_WEB_FLOW_AND_DATA_SPEC.md`.
+- Review `docs/POSTGRES_MODULE_FLOW_ANALYSIS.md`.
+- Review `docs/EVIDENCE_AND_DISCORD_ROLE_ANALYSIS.md`.
 - Confirm MVP participant type.
 - Confirm first score formula.
 - Confirm first configurable rule set shape.
 - Confirm whether check-in is MVP or later.
+- Confirm check-in session generation per stage/day.
 
 Exit criteria:
 
 - Business rules are stable enough for database design.
+- MVP ruleset is accepted or explicitly edited.
+- Rule config shape is stable enough for backend tests.
+- ER diagram is accepted as the implementation baseline.
+- Phase 1 schema and API contract are accepted.
+- Admin/public web surfaces and realtime boundaries are accepted.
+- Discord notification, command, and plugin boundaries are accepted.
+- Bot/web flow and read model strategy are accepted.
+- PostgreSQL write model, read model, and event outbox strategy are accepted.
+- Evidence image handling and Discord role permission boundaries are accepted.
 - Open questions are either answered or explicitly deferred.
 
 ## Phase 1: Backend Foundation
@@ -35,6 +57,12 @@ Tasks:
 - Add scoring service.
 - Add leaderboard query service.
 - Add audit log service.
+- Add public/private serializer separation.
+- Add dashboard summary endpoint.
+- Add polling or realtime event endpoint after core mutations work.
+- Add backend event model for Discord delivery later.
+- Add check-in session service if check-in is included in Phase 1.
+- Add read-optimized dashboard/player/leaderboard endpoints.
 - Add unit tests for score calculation and state transitions.
 
 Exit criteria:
@@ -79,6 +107,7 @@ Tasks:
 
 - Discord notifications.
 - Discord registration or check-in helper.
+- Plugin suggestion framework.
 - OBS/TikTok overlay endpoint.
 - OCR-assisted score evidence review.
 
