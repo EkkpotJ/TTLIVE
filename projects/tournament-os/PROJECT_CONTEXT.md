@@ -70,6 +70,8 @@ The immediate goal is to convert the previous chat analysis into durable reposit
 
 - Start with group-based tournaments plus cumulative points.
 - Support score formulas that can be changed per tournament.
+- Treat tournament rules as configurable data that affects scoring, advancement, lobby assignment, and leaderboard behavior.
+- Current default model is Group Points Qualifier, but the system should later support Fixed Points, Lobby Shuffle, Bracket Knockout, and Checkmate finals.
 - Support bye wins for uneven brackets or groups.
 - Support player-visible leaderboards.
 - Support score dispute flow.

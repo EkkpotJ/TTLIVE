@@ -25,8 +25,28 @@ This is a planning draft, not a final migration.
 - registration_open_at
 - registration_close_at
 - public_slug
+- rule_set_id
 - score_formula_id
 - created_by_user_id
+- created_at
+- updated_at
+
+### rule_sets
+
+- id
+- tournament_id
+- name
+- model
+- participant_type
+- lobby_size
+- max_participants
+- min_participants
+- games_per_stage
+- final_games
+- score_reset_policy
+- advancement_policy_json
+- lobby_assignment_policy_json
+- verification_policy_json
 - created_at
 - updated_at
 
@@ -115,11 +135,14 @@ This is a planning draft, not a final migration.
 
 - id
 - tournament_id
+- rule_set_id
 - name
 - placement_points_json
 - bonus_rules_json
 - penalty_rules_json
 - bye_rule_json
+- tie_break_order_json
+- manual_override_policy_json
 - created_at
 - updated_at
 
@@ -176,6 +199,7 @@ This is a planning draft, not a final migration.
 ## Important Constraints
 
 - Unique tournament `public_slug`.
+- A tournament should have one active `rule_set_id`.
 - Unique registration per `tournament_id` and `user_id`.
 - Unique `game_uid` per tournament when provided.
 - Unique group participant per `group_id` and `registration_id`.

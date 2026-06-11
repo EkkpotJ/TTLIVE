@@ -7,11 +7,14 @@ Phase 1 should start only after the MVP rules are reviewed.
 - Confirm final MVP scope.
 - Confirm solo-only or team support for first build.
 - Confirm Golden Spatula score formula.
+- Confirm first supported tournament models: Group Points Qualifier and Fixed Points.
+- Confirm configurable rule set fields.
 - Confirm tournament state transitions.
 - Confirm registration state transitions.
 - Confirm required database constraints.
 - Create ER diagram.
 - Create PostgreSQL schema draft.
+- Create Rule Engine draft interface.
 - Create FastAPI project skeleton.
 - Create SQLAlchemy models.
 - Create Alembic initial migration.
@@ -24,6 +27,7 @@ Phase 1 should start only after the MVP rules are reviewed.
 - Add group generation API.
 - Add score entry API.
 - Add leaderboard API.
+- Add rule set validation API.
 - Add audit log recording.
 - Add Excel export.
 

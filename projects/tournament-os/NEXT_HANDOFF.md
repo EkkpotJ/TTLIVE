@@ -11,6 +11,7 @@ Read projects/tournament-os/SYSTEM_BOUNDARY.md.
 Read projects/tournament-os/PROJECT_CONTEXT.md.
 Read all files under projects/tournament-os/spec/.
 Pay special attention to projects/tournament-os/spec/COMPETITION_RULES_DRAFT.md as the current proposed tournament rule draft.
+Pay special attention to projects/tournament-os/spec/RULE_ENGINE_SPEC.md because rules must be configurable and affect score calculation.
 
 Summarize your understanding of Tournament Operating System.
 Do not write code yet.
@@ -31,6 +32,7 @@ Confirm these decisions:
 - Solo or team registration for MVP
 - Maximum players for first event
 - Score formula
+- Tournament model: Fixed Points, Group Points Qualifier, Lobby Shuffle, Bracket Knockout, or Checkmate
 - Tie-break rules
 - Bye rules
 - Check-in rules

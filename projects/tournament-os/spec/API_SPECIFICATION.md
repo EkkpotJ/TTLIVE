@@ -48,6 +48,24 @@ POST /admin/tournaments/{tournament_id}/open-registration
 POST /admin/tournaments/{tournament_id}/close-registration
 ```
 
+## Rule Configuration Endpoints
+
+```text
+POST /admin/tournaments/{tournament_id}/rule-set
+GET /admin/tournaments/{tournament_id}/rule-set
+PATCH /admin/tournaments/{tournament_id}/rule-set
+POST /admin/tournaments/{tournament_id}/rule-set/recommend
+POST /admin/tournaments/{tournament_id}/rule-set/validate
+POST /admin/tournaments/{tournament_id}/rule-set/lock
+```
+
+Rules:
+
+- Rule sets can be edited while tournament is Draft.
+- Rule sets should be locked before registration closes.
+- Locked rule sets must not change after the tournament starts except by Super Admin correction with audit note.
+- The recommend endpoint should use participant count, time window, lobby size, and desired finalists to suggest a model.
+
 ## Group Management Endpoints
 
 ```text
@@ -91,3 +109,4 @@ GET /admin/tournaments/{tournament_id}/exports/results.pdf
 - Whether public registration is anonymous or login-based.
 - File upload handling for evidence.
 - Rate limits for public endpoints.
+- Exact request and response schema for configurable rule sets.

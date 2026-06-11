@@ -4,6 +4,8 @@ Initial target: Golden Spatula weekly tournament.
 
 The first version should support a group-based format with cumulative points because this matches score-based games better than a complex bracket-first system.
 
+For configurable multi-game support, see `RULE_ENGINE_SPEC.md`. That file defines how tournament models, scoring rules, advancement rules, lobby shuffle, and time/player variables should affect generated tournament structure.
+
 ## MVP Format
 
 Name: Golden Weekly
@@ -35,6 +37,7 @@ This format is a starting assumption and must be reviewed before real use.
 
 ## Configurable Fields
 
+- Tournament model
 - Maximum players
 - Players per group
 - Number of rounds
@@ -44,6 +47,8 @@ This format is a starting assumption and must be reviewed before real use.
 - Penalty categories
 - Bye behavior
 - Tie-break order
+- Score reset or carry-forward policy
+- Lobby assignment rule
 
 ## Score Formula
 

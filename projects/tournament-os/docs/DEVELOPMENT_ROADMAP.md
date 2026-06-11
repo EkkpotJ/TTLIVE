@@ -12,6 +12,7 @@ Tasks:
 - Review `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`.
 - Confirm MVP participant type.
 - Confirm first score formula.
+- Confirm first configurable rule set shape.
 - Confirm whether check-in is MVP or later.
 
 Exit criteria:
@@ -30,6 +31,7 @@ Tasks:
 - Create Alembic migrations.
 - Add registration service.
 - Add tournament setup service.
+- Add rule set validation service.
 - Add scoring service.
 - Add leaderboard query service.
 - Add audit log service.

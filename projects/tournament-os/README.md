@@ -31,12 +31,13 @@ Do not start full application development until the core rules in `spec/BUSINESS
 3. `spec/BUSINESS_RULES.md`
 4. `spec/STATE_MACHINE.md`
 5. `spec/COMPETITION_RULES_DRAFT.md`
-6. `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`
-7. `spec/DATABASE_SCHEMA.md`
-8. `spec/API_SPECIFICATION.md`
-9. `docs/DEVELOPMENT_ROADMAP.md`
-10. `backlog/PHASE_1.md`
-11. `NEXT_HANDOFF.md`
+6. `spec/RULE_ENGINE_SPEC.md`
+7. `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`
+8. `spec/DATABASE_SCHEMA.md`
+9. `spec/API_SPECIFICATION.md`
+10. `docs/DEVELOPMENT_ROADMAP.md`
+11. `backlog/PHASE_1.md`
+12. `NEXT_HANDOFF.md`
 
 ## MVP Scope
 

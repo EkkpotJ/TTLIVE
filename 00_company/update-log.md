@@ -45,6 +45,15 @@ Tournament OS is a separate subsystem under `projects/tournament-os/`. It is for
 - Drafted MVP rules for registration, check-in, lobby grouping, scoring, tie-break, bye, evidence, disputes, and final results
 - Updated Tournament OS reading order and handoff notes to make the rule draft part of the next implementation review
 
+## Update: 2026-06-11 Tournament Rule Engine
+
+### Summary
+
+- Added `projects/tournament-os/spec/RULE_ENGINE_SPEC.md`
+- Defined configurable tournament models: Fixed Points, Group Points Qualifier, Lobby Shuffle, Bracket Knockout, and Checkmate Final
+- Defined variables that affect format recommendation: participant count, time, lobby size, prize goals, scoring rules, and verification rules
+- Updated schema and API drafts so rule sets become structured configuration that affects scoring, advancement, lobby assignment, and leaderboard behavior
+
 ## Update: 2026-06-11
 
 ### Summary
