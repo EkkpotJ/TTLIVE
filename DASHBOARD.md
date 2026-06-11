@@ -13,6 +13,8 @@
 5. `11_sop/weekly-operating-checklist.md` - checklist ทำงานรายสัปดาห์
 6. `03_live_operations/stream-schedule-system.md` - ระบบตารางไลฟ์
 7. `00_company/workflow.md` - pipeline จาก idea ถึง report
+8. `00_company/github-issue-plan.md` - วิธีติดตามงานผ่าน GitHub issue หลัก
+9. `00_company/update-log.md` - log การอัปเดตงาน
 
 ## สัปดาห์ปัจจุบัน
 

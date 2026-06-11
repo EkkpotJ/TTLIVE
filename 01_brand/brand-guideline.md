@@ -5,9 +5,11 @@
 ## Brand Personality
 
 - สนุก
-- ชัดเจน
 - เป็นกันเอง
-- มีพลัง
+- นุ่มนวล
+- ไพเราะ
+- ตลก
+- ชวนคุย
 - มืออาชีพพอให้ทำซ้ำเป็นระบบ
 
 ## สิ่งที่ต้องคงที่
@@ -25,3 +27,11 @@
 - ภาพตัวละคร/หน้าคน
 - background ตาม campaign
 - caption ตาม platform
+
+## Current Channel Direction
+
+- ชื่อช่อง: โคโม๊ะ
+- TikTok: `@komonokimani`
+- เนื้อหาหลัก: live game
+- เกมหลักช่วงเริ่มต้น: Golden Spatula, LoL Wild Rift, Naraka: Bladepoint, Soul Land: Awakening World
+- โทน: พูดไทย นุ่มนวล ตลก เปิดเพลงระหว่างไลฟ์ และพูดคุยกับคนดู

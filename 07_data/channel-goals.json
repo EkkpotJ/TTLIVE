@@ -1,0 +1,20 @@
+{
+  "followers": {
+    "one_month": 1000,
+    "three_months": 1500,
+    "six_months": 3000
+  },
+  "weekly_targets": {
+    "live_hours": 15,
+    "clips": 3,
+    "minimum_live_duration_minutes": 60
+  },
+  "primary_goals": [
+    "คนดู",
+    "followers",
+    "คลิป",
+    "community",
+    "รายได้ในอนาคต"
+  ],
+  "stage": "เริ่มจริงจัง แต่ยังเน้นความสนุกและความสม่ำเสมอ"
+}

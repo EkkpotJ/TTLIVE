@@ -17,6 +17,14 @@
 
 - Golden Spatula
 - LoL Wild Rift
+- Naraka: Bladepoint
+- Soul Land: Awakening World
+
+ช่วงเวลาหลักตอนนี้:
+
+- 07:00-09:00
+- 19:00 เป็นต้นไป
+- เสาร์-อาทิตย์หรือวันหยุดเหมาะกับไลฟ์ยาว 2-4 ชั่วโมง
 
 ## 2. Daily Schedule
 
