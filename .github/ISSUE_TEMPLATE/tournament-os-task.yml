@@ -1,0 +1,55 @@
+name: Tournament OS Task
+description: Create a scoped Tournament OS implementation or documentation task.
+title: "[Tournament OS] "
+labels: ["tournament-os", "phase-1"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should this issue accomplish?
+      placeholder: "Implement, design, test, or document one focused piece of Phase 1."
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Documentation
+        - Architecture
+        - Database
+        - API
+        - Backend
+        - Testing
+        - Public Data
+        - OBS / TikTok Live Studio
+        - Discord
+        - Security / Privacy
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Implementation Notes
+      description: Include constraints, services, tables, endpoints, or tests.
+      placeholder: |
+        - ...
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      placeholder: |
+        - projects/tournament-os/spec/API_CONTRACT_PHASE_1.md
+    validations:
+      required: true

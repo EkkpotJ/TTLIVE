@@ -131,6 +131,39 @@ This is a planning draft, not a final migration.
 - created_at
 - updated_at
 
+### check_in_sessions
+
+- id
+- tournament_id
+- stage_id
+- group_id
+- round_id
+- name
+- session_type
+- status
+- opens_at
+- closes_at
+- locked_at
+- created_by_user_id
+- created_at
+- updated_at
+
+### check_ins
+
+- id
+- check_in_session_id
+- tournament_id
+- registration_id
+- group_participant_id
+- status
+- checked_in_at
+- checked_in_by_user_id
+- source
+- note
+- replaced_by_registration_id
+- created_at
+- updated_at
+
 ### score_formulas
 
 - id
@@ -203,6 +236,7 @@ This is a planning draft, not a final migration.
 - Unique registration per `tournament_id` and `user_id`.
 - Unique `game_uid` per tournament when provided.
 - Unique group participant per `group_id` and `registration_id`.
+- Unique check-in per `check_in_session_id` and `registration_id`.
 - Scores should be unique per `round_id` and `registration_id`.
 
 ## Open Schema Decisions
@@ -211,3 +245,4 @@ This is a planning draft, not a final migration.
 - Whether evidence files are stored locally, S3-compatible storage, or external links.
 - Whether role is global or tournament-scoped.
 - Whether teams should exist in MVP or solo-only should come first.
+- Whether check-in sessions should be generated automatically from stage schedule or manually by admin.
