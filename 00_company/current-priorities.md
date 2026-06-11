@@ -16,6 +16,7 @@ Priority สำหรับช่วงเริ่มต้น TTLIVE
 - ทำ caption template ให้ใช้ซ้ำ
 - ทำ starting soon scene
 - ทำภาพตารางไลฟ์ให้เป็นมาตรฐาน
+- ทำ specification สำหรับ Tournament Operating System ให้พร้อมก่อนเริ่มเขียนโค้ด
 
 ## P2: ทำภายหลัง
 

@@ -2,6 +2,37 @@
 
 ไฟล์นี้เป็น local mirror ของ GitHub issue comment เพื่อให้ repo มีประวัติงานแม้ยังไม่ได้สร้าง issue จริง
 
+## Update: 2026-06-11 Tournament OS Context
+
+### Summary
+
+- Converted the Tournament Management System chat into durable Codex-ready project documentation
+- Added root `AGENTS.md` with repository and Tournament OS agent rules
+- Added Tournament OS context, business rules, state machine, tournament format, schema, API, roadmap, and Phase 1 backlog
+- Linked Tournament OS from `DASHBOARD.md` and current priorities
+
+### Changed Files
+
+- `AGENTS.md`
+- `DASHBOARD.md`
+- `00_company/current-priorities.md`
+- `00_company/update-log.md`
+- `projects/tournament-os/README.md`
+- `projects/tournament-os/PROJECT_CONTEXT.md`
+- `projects/tournament-os/spec/BUSINESS_RULES.md`
+- `projects/tournament-os/spec/STATE_MACHINE.md`
+- `projects/tournament-os/spec/TOURNAMENT_FORMAT_SPECIFICATION.md`
+- `projects/tournament-os/spec/DATABASE_SCHEMA.md`
+- `projects/tournament-os/spec/API_SPECIFICATION.md`
+- `projects/tournament-os/docs/DEVELOPMENT_ROADMAP.md`
+- `projects/tournament-os/backlog/PHASE_1.md`
+
+### Next
+
+- Review the Golden Spatula scoring formula
+- Confirm MVP participant type: solo only or team support
+- Generate ER diagram before writing backend code
+
 ## Update: 2026-06-11
 
 ### Summary

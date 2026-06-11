@@ -16,6 +16,12 @@
 8. `00_company/github-issue-plan.md` - วิธีติดตามงานผ่าน GitHub issue หลัก
 9. `00_company/update-log.md` - log การอัปเดตงาน
 
+## โปรเจกต์ที่กำลังต่อยอด
+
+| โปรเจกต์ | สถานะ | อ่านต่อ |
+| :--- | :---: | :--- |
+| Tournament Operating System | Specification | `projects/tournament-os/PROJECT_CONTEXT.md` |
+
 ## สัปดาห์ปัจจุบัน
 
 - Week:
