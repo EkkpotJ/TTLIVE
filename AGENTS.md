@@ -18,6 +18,8 @@ How to work in this repository:
 Tournament OS focus:
 
 - The tournament management system lives under `projects/tournament-os/`.
+- Treat Tournament OS as a separate subsystem for tournament cases, not as part of the default weekly live workflow.
+- Read `projects/tournament-os/SYSTEM_BOUNDARY.md` before deciding where tournament-related work belongs.
 - Read `projects/tournament-os/PROJECT_CONTEXT.md` before editing tournament files.
 - Read all files under `projects/tournament-os/spec/` before proposing schema, API, Discord, OCR, or overlay work.
 - Do not implement UI, Discord, OCR, payment, or SaaS features until the MVP backend specification is stable.

@@ -33,6 +33,10 @@
 - Confirm MVP participant type: solo only or team support
 - Generate ER diagram before writing backend code
 
+### Separation Note
+
+Tournament OS is a separate subsystem under `projects/tournament-os/`. It is for future tournament management work and should not be mixed into the normal weekly live workflow except through links, overlays, announcements, or reports.
+
 ## Update: 2026-06-11
 
 ### Summary

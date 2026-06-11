@@ -2,6 +2,12 @@
 
 Tournament Operating System is the planned web system for running game competitions from registration to final results.
 
+This is a separate subsystem added for tournament cases. It is intentionally isolated from the normal TTLIVE weekly live workflow so it can later become a real application or its own repository.
+
+System boundary: `SYSTEM_BOUNDARY.md`
+
+Next development handoff: `NEXT_HANDOFF.md`
+
 The system should help a solo organizer or small team manage:
 
 - Player or team registration
@@ -20,14 +26,16 @@ Do not start full application development until the core rules in `spec/BUSINESS
 
 ## Suggested Reading Order
 
-1. `PROJECT_CONTEXT.md`
-2. `spec/BUSINESS_RULES.md`
-3. `spec/STATE_MACHINE.md`
-4. `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`
-5. `spec/DATABASE_SCHEMA.md`
-6. `spec/API_SPECIFICATION.md`
-7. `docs/DEVELOPMENT_ROADMAP.md`
-8. `backlog/PHASE_1.md`
+1. `SYSTEM_BOUNDARY.md`
+2. `PROJECT_CONTEXT.md`
+3. `spec/BUSINESS_RULES.md`
+4. `spec/STATE_MACHINE.md`
+5. `spec/TOURNAMENT_FORMAT_SPECIFICATION.md`
+6. `spec/DATABASE_SCHEMA.md`
+7. `spec/API_SPECIFICATION.md`
+8. `docs/DEVELOPMENT_ROADMAP.md`
+9. `backlog/PHASE_1.md`
+10. `NEXT_HANDOFF.md`
 
 ## MVP Scope
 
