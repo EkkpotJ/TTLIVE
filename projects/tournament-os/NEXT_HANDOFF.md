@@ -27,6 +27,7 @@ Read projects/tournament-os/docs/SPEC_GAP_ANALYSIS.md for the current readiness 
 Read projects/tournament-os/docs/SYSTEM_ARCHITECTURE_DESIGN.md before implementing backend modules.
 Read projects/tournament-os/docs/TEST_PLAN_PHASE_1.md before writing tests or accepting Phase 1.
 Read projects/tournament-os/docs/WEB_APP_DESIGN_AND_INTEGRATION_SPEC.md before planning frontend, realtime, Discord, bot, or overlay work.
+Read projects/tournament-os/docs/WEB_UI_STRUCTURE_AND_UX_SPEC.md before designing or implementing web screens.
 Read projects/tournament-os/docs/DISCORD_OPERATIONS_AND_PLUGIN_SPEC.md before planning Discord bot commands, notification delivery, or plugin processing.
 Read projects/tournament-os/docs/BOT_WEB_FLOW_AND_DATA_SPEC.md before implementing Discord buttons, player messages, read models, or dashboard synchronization.
 Read projects/tournament-os/docs/POSTGRES_MODULE_FLOW_ANALYSIS.md before finalizing PostgreSQL schema, service modules, read models, or event/outbox design.
